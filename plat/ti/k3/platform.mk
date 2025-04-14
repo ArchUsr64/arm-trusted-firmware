@@ -13,7 +13,7 @@ include ${PLAT_PATH}/board/${TARGET_BOARD}/board.mk
 BL32_BASE ?= 0x9e800000
 $(eval $(call add_define,BL32_BASE))
 
-PRELOADED_BL33_BASE ?= 0x80080000
+PRELOADED_BL33_BASE ?= 0x82200000
 $(eval $(call add_define,PRELOADED_BL33_BASE))
 
 K3_HW_CONFIG_BASE ?= 0x82000000
